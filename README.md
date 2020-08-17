@@ -1,20 +1,16 @@
-# Canadian_Constituencies
-Data scraping project mapping each postal code in Canada to its political constituency and member of parliment.
+# Canadian Constituencies Database
+Data scraping project mapping every postal code in Canada to its political constituency information and member of parliment. Specifically coloumns in database are as follows: postal_code, MP, MP_email, constituency, province, county, place, consituency_population, constituency_registered_voters, and constituency_polling_divisions. 
 
-The database contains 844216 entries in total. 9960 of the postal codes do not have political information. In these instances the postal code would be for an extremely remote location, or the elections Canada website would require additional specific address input.
+This project was created to increase accessibility and transparency regarding political data in Canada, and in response to general demand (see https://open.canada.ca/en/suggested-datasets/postal-codes-and-federal-ridings for example). Outside of politics the database is also useful as it holds all the general Canadian postal code information in one place.
 
-Project was created to increase accessibility and transparency regarding political data in Canada, and in response to general demand (see https://open.canada.ca/en/suggested-datasets/postal-codes-and-federal-ridings). Outside of politics the database is also useful as it holds all the general Canadian postal code information in one place.
+The database contains 844 216 entries in total. 9960 of the postal codes do not have political information (only postal_code, province, county, and place). In these instances the postal code would be for an extremely remote location without valid political information, or the elections Canada website would require additional specific address input.
 
-Source of postal codes:
-https://www.postalcodesincanada.com/
+Postal codes were scrapped from https://www.postalcodesincanada.com/
 
 Each postal code was subsequently entered into the postal code input found here:
 https://www.elections.ca/Scripts/vis/FindED?L=e&QID=-1&PAGEID=20
 
-Information is accurate as of August 2020.
-
-Outline format of tables
-
-Some postal codes do not have political information regarding
-
-The web scraper takes many days to run even when divided by province.
+TODO:
+requirements.txt
+Create script to initialize postgres db
+Break larger provinces into multiple scraping spiders. Currently the entire process will take as long as Ontario takes to finish.
