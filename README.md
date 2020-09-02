@@ -1,4 +1,4 @@
-# Canadian Constituencies Database
+# Canadian Postal Code & Political Constituencies Database
 Data scraping project mapping every postal code in Canada to its political constituency information and member of parliment. Specifically coloumns in database are as follows: postal_code, MP, MP_email, constituency, province, county, place, consituency_population, constituency_registered_voters, and constituency_polling_divisions. 
 
 This project was created to increase accessibility and transparency regarding political data in Canada, and in response to general demand (see https://open.canada.ca/en/suggested-datasets/postal-codes-and-federal-ridings for example). Outside of politics the database is also useful as it holds all the general Canadian postal code information in one place.
