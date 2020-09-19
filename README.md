@@ -9,11 +9,3 @@ Postal codes were scrapped from https://www.postalcodesincanada.com/
 
 Each postal code was subsequently entered into the postal code input found here:
 https://www.elections.ca/Scripts/vis/FindED?L=e&QID=-1&PAGEID=20
-
-TODO:
-
-requirements.txt
-
-Create script to initialize postgres db
-
-Break larger provinces into multiple scraping spiders. Currently the entire process will take as long as Ontario takes to finish.
