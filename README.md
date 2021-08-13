@@ -1,7 +1,7 @@
 Canadian Postal Code & Political Constituencies Dataset
 ========================================================
 
-Open source dataset and data extraction pipeline mapping every postal code in Canada to its political constituency information and member of parliament.
+This project is an open source dataset and data extraction pipeline mapping every postal code in Canada to its political constituency information and member of parliament.
 
 This project was created to increase accessibility and transparency regarding political data in Canada, and in response to general demand (https://open.canada.ca/en/suggested-datasets/postal-codes-and-federal-ridings for example). Outside of politics the database is also useful as it holds all the general Canadian postal code information in one place.
 
