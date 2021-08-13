@@ -28,7 +28,7 @@ The dataset is accurate with the elections Canada website, as of September 2020
 | province | varchar | province where constituency is located |
 | county | varchar | name of the county associated with constituency |
 | place | varchar | general region identifier i.e. "Hunter River" or "Stratford" |
-| consituency_population | int | Population of voting constituency |
+| constituency_population | int | Population of voting constituency |
 | constituency_registered_voters | int | Number of registered voters in constituency |
 | constituency_polling_divisions | int | Number of polling divisions, each division has a voting station |
 
