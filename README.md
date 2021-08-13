@@ -1,11 +1,36 @@
-# Canadian Postal Code & Political Constituencies Database
-Data scraping project mapping every postal code in Canada to its political constituency information and member of parliament. Specifically coloumns in database are as follows: postal_code, MP, MP_email, constituency, province, county, place, consituency_population, constituency_registered_voters, and constituency_polling_divisions. 
+Canadian Postal Code & Political Constituencies Dataset
+========================================================
 
-This project was created to increase accessibility and transparency regarding political data in Canada, and in response to general demand (see https://open.canada.ca/en/suggested-datasets/postal-codes-and-federal-ridings for example). Outside of politics the database is also useful as it holds all the general Canadian postal code information in one place.
+Open source dataset and data extraction pipeline mapping every postal code in Canada to its political constituency information and member of parliament.
 
-The database contains 844 216 entries in total. 9960 of the postal codes do not have political information (only postal_code, province, county, and place). In these instances the postal code would be for an extremely remote location without valid political information, or the elections Canada website would require additional specific address input.
+This project was created to increase accessibility and transparency regarding political data in Canada, and in response to general demand (https://open.canada.ca/en/suggested-datasets/postal-codes-and-federal-ridings for example). Outside of politics the database is also useful as it holds all the general Canadian postal code information in one place.
 
-Postal codes were scrapped from https://www.postalcodesincanada.com/
+Additionally, this dataset is proudly used by DemocracyBot (democracybot.ca), a volunteer project that allows Canadians to quickly send letters to their member of parliment through text messages.
 
-Each postal code was subsequently entered into the postal code input found here:
-https://www.elections.ca/Scripts/vis/FindED?L=e&QID=-1&PAGEID=20
+-----
+
+## Dataset Overview
+
+The database contains 844 216 entries in total. 9960 of the postal codes do not have political information (only postal_code, province, county, and place). In these instances additional address information was required to map the information to a constituency or the location is extremely remote and has no available political information.
+
+The dataset is accurate with the elections Canada website, as of September 2020
+
+-----
+
+## Relation Schema
+
+| Attribute | Data Properties | Description |
+| ----- |:-----| ------------|
+| postal_code | varchar | Postal code being mapped to voting constituency |
+| MP | varchar | The member of parliament representing given postal code |
+| MP_email | varchar | Member of parliament email contact |
+| constituency | varchar | the name of the voting constituency |
+| province | varchar | province where constituency is located |
+| county | varchar | name of the county associated with constituency |
+| place | varchar | general region identifier i.e. "Hunter River" or "Stratford" |
+| consituency_population | int | Population of voting constituency |
+| constituency_registered_voters | int | Number of registered voters in constituency |
+| constituency_polling_divisions | int | Number of polling divisions, each division has a voting station |
+
+Future Implementations:
+* Update for future elections
