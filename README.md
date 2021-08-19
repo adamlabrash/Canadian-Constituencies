@@ -5,7 +5,7 @@ This project is an open source dataset and data extraction pipeline mapping ever
 
 This project was created to increase accessibility and transparency regarding political data in Canada, and in response to general demand (https://open.canada.ca/en/suggested-datasets/postal-codes-and-federal-ridings for example). Outside of politics the database is also useful as it holds all the general Canadian postal code information in one place.
 
-Additionally, this dataset is proudly used by DemocracyBot (democracybot.ca), a volunteer project that allows Canadians to quickly send letters to their member of parliment through text messages.
+Additionally, this dataset is proudly used by DemocracyBot (democracybot.ca), a volunteer project that allows Canadians to quickly send letters to their member of parliament through text messages.
 
 -----
 
