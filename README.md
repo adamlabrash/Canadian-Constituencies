@@ -21,13 +21,13 @@ The dataset is accurate with the elections Canada website, as of September 2020
 
 | Attribute | Data Properties | Description |
 | ----- |:-----| ------------|
-| postal_code | varchar | Postal code being mapped to voting constituency |
-| MP | varchar | The member of parliament representing given postal code |
-| MP_email | varchar | Member of parliament email contact |
-| constituency | varchar | the name of the voting constituency |
-| province | varchar | province where constituency is located |
-| county | varchar | name of the county associated with constituency |
-| place | varchar | general region identifier i.e. "Hunter River" or "Stratford" |
+| postal_code | varchar(7) | Postal code being mapped to voting constituency |
+| MP | varchar(255) | The member of parliament representing given postal code |
+| MP_email | varchar(255) | Member of parliament email contact |
+| constituency | varchar(255) | the name of the voting constituency |
+| province | varchar(32) | province where constituency is located |
+| county | varchar(255) | name of the county associated with constituency |
+| place | varchar(255) | general region identifier i.e. "Hunter River" or "Stratford" |
 | constituency_population | int | Population of voting constituency |
 | constituency_registered_voters | int | Number of registered voters in constituency |
 | constituency_polling_divisions | int | Number of polling divisions, each division has a voting station |
