@@ -3,12 +3,6 @@ from selenium import webdriver
 from multiprocessing.pool import ThreadPool as Pool
 import psycopg2
 
-DB_USER = 'postgres'
-DB_PASSWORD = '123456'
-DB_NAME = 'canadapolitics2021'
-DB_HOST = 'localhost'
-
-
 def update_constituencies(csv_file):
     lines = get_next_line(csv_file)
     pool = Pool(processes=1, initializer=init_process)
