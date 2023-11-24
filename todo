@@ -1,4 +1,6 @@
 -Update Readme
--Seperate PostalCodes dataset
--Update democracybot service
--Run postal codes scrape
+-start db
+-insert postal code into db
+-postal_codes as a seperate csv
+-Iterate through postal_codes
+-analysis -> which constiuencies have the least representation per capita
