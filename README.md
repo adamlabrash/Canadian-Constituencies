@@ -11,8 +11,6 @@ This project was created to increase accessibility and transparency regarding po
 
 The database contains 844 216 entries in total. 9960 of the postal codes do not have political information (only postal_code, province, county, and place). In these instances additional address information was required to map the information to a constituency or the location is extremely remote and has no available political information.
 
-The dataset is accurate with the elections Canada website, as of September 2020
-
 -----
 
 ## Relation Schema
