@@ -1,7 +1,7 @@
 Canadian Postal Code & Political Constituencies Dataset
 ========================================================
 
-This project is an open source dataset mapping every postal code in Canada to its political constituency information and member of parliament. This dataset is proudly used by [Democracy Bot](https://www.democracybot.ca/), a non-profit that allows Canadians to quickly send letters to their member of parliament through text messages.
+This project is a lightweight web crawler and dataset that maps every postal code in Canada to its political constituency information and member of parliament. This dataset is proudly used by [Democracy Bot](https://www.democracybot.ca/), a non-profit that allows Canadians to quickly send letters to their member of parliament through text messages.
 
 This project was created to increase accessibility and transparency regarding political data in Canada, and in response to general demand (https://open.canada.ca/en/suggested-datasets/postal-codes-and-federal-ridings for example). Outside of politics the database is also useful as it holds all the general Canadian postal code information in one place.
 
@@ -11,7 +11,7 @@ This project was created to increase accessibility and transparency regarding po
 
 The database contains 844 216 entries in total. 9960 of the postal codes do not have political information (only postal_code, province, county, and place). In these instances additional address information was required to map the information to a constituency or the location is extremely remote and has no available political information.
 
-The dataset is accurate with the elections Canada website, as of September 2020
+The dataset is accurate with the elections Canada website, as of December 2023
 
 -----
 
